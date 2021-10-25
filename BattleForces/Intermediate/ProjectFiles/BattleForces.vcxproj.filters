@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\BattleForces.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{39646634-2BD2-4572-A2B5-4D4C960F9BC7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BattleForces.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\BattleForcesEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{55832B48-D2AB-45DF-8F53-BD445B1AEC74}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\BattleForces">
+      <UniqueIdentifier>{0C4F318E-BB1D-4F11-9DDE-6EBA2F44C977}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BattleForces\BattleForces.Build.cs">
+      <Filter>Source\BattleForces</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\BattleForces\BattleForces.cpp">
+      <Filter>Source\BattleForces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BattleForces\BattleForces.h">
+      <Filter>Source\BattleForces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BattleForces\BattleForcesGameModeBase.cpp">
+      <Filter>Source\BattleForces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BattleForces\BattleForcesGameModeBase.h">
+      <Filter>Source\BattleForces</Filter>
+    </ClInclude>
+    <Filter Include="Source\BattleForces\Private">
+      <UniqueIdentifier>{775AEA1C-346F-4A94-9660-7C7BA2D4B7AD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BattleForces\Private\BaseCharacter.cpp">
+      <Filter>Source\BattleForces\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BattleForces\Private\Gun.cpp">
+      <Filter>Source\BattleForces\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\BattleForces\Public">
+      <UniqueIdentifier>{47569E64-B7BF-4EBD-96CD-54E28F4DBB7D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\BattleForces\Public\BaseCharacter.h">
+      <Filter>Source\BattleForces\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BattleForces\Public\Gun.h">
+      <Filter>Source\BattleForces\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

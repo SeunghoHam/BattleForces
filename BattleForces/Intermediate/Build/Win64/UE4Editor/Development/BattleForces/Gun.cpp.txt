@@ -1,0 +1,13 @@
+C:\Users\xldgh\Desktop\BattleForces\BattleForces\Intermediate\Build\Win64\UE4Editor\Development\BattleForces\Definitions.BattleForces.h
+C:\Users\xldgh\Desktop\BattleForces\BattleForces\Source\BattleForces\Public\Gun.h
+C:\Users\xldgh\Desktop\BattleForces\BattleForces\Intermediate\Build\Win64\UE4Editor\Inc\BattleForces\Gun.generated.h
+C:\Users\xldgh\Desktop\BattleForces\BattleForces\Source\BattleForces\Public\BaseCharacter.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\xldgh\Desktop\BattleForces\BattleForces\Intermediate\Build\Win64\UE4Editor\Inc\BattleForces\BaseCharacter.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\Net/UnrealNetwork.h

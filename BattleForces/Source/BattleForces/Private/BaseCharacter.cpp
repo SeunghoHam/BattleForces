@@ -153,12 +153,12 @@ void ABaseCharacter::PressedGrappingR()
 		{
 			if (HasAuthority()) // 서버에서 호출한 경우 모든 클라에게 동기화
 			{
-				UE_LOG(LogTemp, Log, TEXT("Multicast Grapping"));
+				UE_LOG(LogTemp, Log, TEXT("GrappingR->Multicast Grapping"));
 				MulticastGrappingR(true);
 			}
 			else // 클라에서 호출한 경우 (HasAuthority = false) 서버로 동기화
 			{
-				UE_LOG(LogTemp, Log, TEXT("Server Grapping"));
+				UE_LOG(LogTemp, Log, TEXT("GrappingR->Server Grapping"));
 				ServerGrappingR();
 			}
 		}
@@ -174,7 +174,7 @@ void ABaseCharacter::PressedGrappingL()
 }
 void ABaseCharacter::ServerGrappingR_Implementation()
 {
-	//PressedGrappingR();
+	PressedGrappingR();
 	UE_LOG(LogTemp, Log, TEXT("ServerGrapping_Implementation"));
 	// 서버에서 호출할 것
 	MulticastGrappingR(false);

@@ -1,0 +1,2 @@
+C:\Users\xldgh\Desktop\BattleForces\BattleForces\Intermediate\Build\Win64\UE4Editor\Development\BattleForces\Definitions.BattleForces.h
+C:\Users\xldgh\Desktop\BattleForces\BattleForces\Source\BattleForces\BattleForces.h
