@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BattleForces.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{39646634-2BD2-4572-A2B5-4D4C960F9BC7}</UniqueIdentifier>
+      <UniqueIdentifier>{E6F19223-1F66-4784-952D-E73087355962}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BattleForces.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{55832B48-D2AB-45DF-8F53-BD445B1AEC74}</UniqueIdentifier>
+      <UniqueIdentifier>{058C84B6-E56C-4F2F-A21B-1658B833681F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BattleForces">
-      <UniqueIdentifier>{0C4F318E-BB1D-4F11-9DDE-6EBA2F44C977}</UniqueIdentifier>
+      <UniqueIdentifier>{073B4152-1D05-4BDF-8F40-A9B14EE3EDA3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BattleForces\BattleForces.Build.cs">
       <Filter>Source\BattleForces</Filter>
@@ -45,7 +45,7 @@
       <Filter>Source\BattleForces</Filter>
     </ClInclude>
     <Filter Include="Source\BattleForces\Private">
-      <UniqueIdentifier>{775AEA1C-346F-4A94-9660-7C7BA2D4B7AD}</UniqueIdentifier>
+      <UniqueIdentifier>{9E9D30CB-0E28-43CB-8BD5-E8C43EA3873C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\BattleForces\Private\BaseCharacter.cpp">
       <Filter>Source\BattleForces\Private</Filter>
@@ -54,7 +54,7 @@
       <Filter>Source\BattleForces\Private</Filter>
     </ClCompile>
     <Filter Include="Source\BattleForces\Public">
-      <UniqueIdentifier>{47569E64-B7BF-4EBD-96CD-54E28F4DBB7D}</UniqueIdentifier>
+      <UniqueIdentifier>{51E5661A-8911-43EC-BBA4-0EDB4C6BF4E2}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\BattleForces\Public\BaseCharacter.h">
       <Filter>Source\BattleForces\Public</Filter>

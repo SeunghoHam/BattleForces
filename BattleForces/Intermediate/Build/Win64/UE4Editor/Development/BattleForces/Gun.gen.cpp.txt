@@ -1,5 +1,5 @@
-C:\Users\xldgh\Desktop\BattleForces\BattleForces\Intermediate\Build\Win64\UE4Editor\Development\BattleForces\Definitions.BattleForces.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\xldgh\Desktop\BattleForces\BattleForces\Source\BattleForces/Public/Gun.h
-C:\Users\xldgh\Desktop\BattleForces\BattleForces\Intermediate\Build\Win64\UE4Editor\Inc\BattleForces\Gun.generated.h
+D:\UnrealEngineProject\BattleForces\BattleForces\Intermediate\Build\Win64\UE4Editor\Development\BattleForces\Definitions.BattleForces.h
+D:\UnrealEngine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\UnrealEngine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\UnrealEngineProject\BattleForces\BattleForces\Source\BattleForces/Public/Gun.h
+D:\UnrealEngineProject\BattleForces\BattleForces\Intermediate\Build\Win64\UE4Editor\Inc\BattleForces\Gun.generated.h
