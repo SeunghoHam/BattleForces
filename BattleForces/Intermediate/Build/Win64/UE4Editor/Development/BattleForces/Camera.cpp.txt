@@ -1,0 +1,5 @@
+D:\UnrealEngineProject\BattleForces\BattleForces\Intermediate\Build\Win64\UE4Editor\Development\BattleForces\Definitions.BattleForces.h
+D:\UnrealEngineProject\BattleForces\BattleForces\Source\BattleForces\Public\Camera.h
+D:\UnrealEngineProject\BattleForces\BattleForces\Source\BattleForces\Public\Gadget.h
+D:\UnrealEngineProject\BattleForces\BattleForces\Intermediate\Build\Win64\UE4Editor\Inc\BattleForces\Gadget.generated.h
+D:\UnrealEngineProject\BattleForces\BattleForces\Intermediate\Build\Win64\UE4Editor\Inc\BattleForces\Camera.generated.h

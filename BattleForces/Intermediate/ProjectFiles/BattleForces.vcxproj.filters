@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BattleForces.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{EACB7A95-4BE3-4F8C-A097-6EA62E4EC328}</UniqueIdentifier>
+      <UniqueIdentifier>{CFD9060B-DC44-4184-A85F-F966F64BD1B0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BattleForces.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{D71BB27B-8AC3-4F7E-B37D-07A6644F7B07}</UniqueIdentifier>
+      <UniqueIdentifier>{16E4D725-5F6B-4D1D-B25A-D6D843BDBA34}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BattleForces">
-      <UniqueIdentifier>{F4A09759-6B0E-43C5-AD73-51F62FFA30E6}</UniqueIdentifier>
+      <UniqueIdentifier>{24701CE8-9437-48C3-94A0-10936CCA6CE5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BattleForces\BattleForces.Build.cs">
       <Filter>Source\BattleForces</Filter>
@@ -45,18 +45,54 @@
       <Filter>Source\BattleForces</Filter>
     </ClInclude>
     <Filter Include="Source\BattleForces\Private">
-      <UniqueIdentifier>{F9ED9091-4F43-4A5B-999C-7C7FE93C71F5}</UniqueIdentifier>
+      <UniqueIdentifier>{0D41C4E4-8B28-44A5-BCC8-E7C932F7BE81}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\BattleForces\Private\AOTDefenceGameMode.cpp">
+      <Filter>Source\BattleForces\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BattleForces\Private\AOTDefenceGameState.cpp">
+      <Filter>Source\BattleForces\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BattleForces\Private\AOTGameState.cpp">
+      <Filter>Source\BattleForces\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BattleForces\Private\AOTPlayerState.cpp">
+      <Filter>Source\BattleForces\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\BattleForces\Private\BaseCharacter.cpp">
+      <Filter>Source\BattleForces\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BattleForces\Private\Camera.cpp">
+      <Filter>Source\BattleForces\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BattleForces\Private\Gadget.cpp">
       <Filter>Source\BattleForces\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\BattleForces\Private\Gun.cpp">
       <Filter>Source\BattleForces\Private</Filter>
     </ClCompile>
     <Filter Include="Source\BattleForces\Public">
-      <UniqueIdentifier>{E77BD041-120A-46F3-B940-DEA671FA4295}</UniqueIdentifier>
+      <UniqueIdentifier>{431B5B28-F34D-42D7-B561-D58E2C4E85C4}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\BattleForces\Public\AOTDefenceGameMode.h">
+      <Filter>Source\BattleForces\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BattleForces\Public\AOTDefenceGameState.h">
+      <Filter>Source\BattleForces\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BattleForces\Public\AOTGameState.h">
+      <Filter>Source\BattleForces\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BattleForces\Public\AOTPlayerState.h">
+      <Filter>Source\BattleForces\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\BattleForces\Public\BaseCharacter.h">
+      <Filter>Source\BattleForces\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BattleForces\Public\Camera.h">
+      <Filter>Source\BattleForces\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BattleForces\Public\Gadget.h">
       <Filter>Source\BattleForces\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\BattleForces\Public\Gun.h">

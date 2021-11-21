@@ -1,0 +1,11 @@
+D:\UnrealEngineProject\BattleForces\BattleForces\Intermediate\Build\Win64\UE4Editor\Development\BattleForces\Definitions.BattleForces.h
+D:\UnrealEngine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\UnrealEngine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\UnrealEngineProject\BattleForces\BattleForces\Source\BattleForces/Public/AOTDefenceGameMode.h
+D:\UnrealEngine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameMode.h
+D:\UnrealEngine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\UnrealEngine\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\UnrealEngine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\UnrealEngine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\UnrealEngine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameMode.generated.h
+D:\UnrealEngineProject\BattleForces\BattleForces\Intermediate\Build\Win64\UE4Editor\Inc\BattleForces\AOTDefenceGameMode.generated.h

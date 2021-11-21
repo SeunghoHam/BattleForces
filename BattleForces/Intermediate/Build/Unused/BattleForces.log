@@ -1,12 +1,17 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\xldgh\Desktop\BattleForces).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\UnrealEngineProject\BattleForces).
+  Parsing headers for BattleForcesEditor
+    Running UnrealHeaderTool "D:\UnrealEngineProject\BattleForces\BattleForces\BattleForces.uproject" "D:\UnrealEngineProject\BattleForces\BattleForces\Intermediate\Build\Win64\BattleForcesEditor\Development\BattleForcesEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\xldgh\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for BattleForcesEditor in 2.9904564 seconds
   Building BattleForcesEditor...
-  Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 8 processes...
-    [1/4] BaseCharacter.cpp
-    [2/4] UE4Editor-BattleForces-0001.lib
-       C:\Users\xldgh\Desktop\BattleForces\BattleForces\Intermediate\Build\Win64\UE4Editor\Development\BattleForces\UE4Editor-BattleForces-0001.lib 라이브러리 및 C:\Users\xldgh\Desktop\BattleForces\BattleForces\Intermediate\Build\Win64\UE4Editor\Development\BattleForces\UE4Editor-BattleForces-0001.exp 개체를 생성하고 있습니다.
-    [3/4] UE4Editor-BattleForces-0001.dll
-       C:\Users\xldgh\Desktop\BattleForces\BattleForces\Intermediate\Build\Win64\UE4Editor\Development\BattleForces\UE4Editor-BattleForces-0001.suppressed.lib 라이브러리 및 C:\Users\xldgh\Desktop\BattleForces\BattleForces\Intermediate\Build\Win64\UE4Editor\Development\BattleForces\UE4Editor-BattleForces-0001.suppressed.exp 개체를 생성하고 있습니다.
-    [4/4] BattleForcesEditor.target
-  Total time in Parallel executor: 26.46 seconds
-  Total execution time: 27.68 seconds
+  Using Visual Studio 2019 14.29.30137 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 5 actions with 8 processes...
+    [1/5] Camera.cpp
+    [2/5] Camera.gen.cpp
+    [3/5] UE4Editor-BattleForces-0019.lib
+       D:\UnrealEngineProject\BattleForces\BattleForces\Intermediate\Build\Win64\UE4Editor\Development\BattleForces\UE4Editor-BattleForces-0019.lib 라이브러리 및 D:\UnrealEngineProject\BattleForces\BattleForces\Intermediate\Build\Win64\UE4Editor\Development\BattleForces\UE4Editor-BattleForces-0019.exp 개체를 생성하고 있습니다.
+    [4/5] UE4Editor-BattleForces-0019.dll
+       D:\UnrealEngineProject\BattleForces\BattleForces\Intermediate\Build\Win64\UE4Editor\Development\BattleForces\UE4Editor-BattleForces-0019.suppressed.lib 라이브러리 및 D:\UnrealEngineProject\BattleForces\BattleForces\Intermediate\Build\Win64\UE4Editor\Development\BattleForces\UE4Editor-BattleForces-0019.suppressed.exp 개체를 생성하고 있습니다.
+    [5/5] BattleForcesEditor.target
+  Total time in Parallel executor: 1.04 seconds
+  Total execution time: 4.69 seconds

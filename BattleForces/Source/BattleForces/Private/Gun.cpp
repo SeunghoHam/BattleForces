@@ -123,7 +123,7 @@ void AGun::Fire()
 		FCollisionQueryParams QueryParams;
 		QueryParams.AddIgnoredActor(this); // 발사하는 Gun 엑터 제외
 		QueryParams.AddIgnoredActor(GetOwner()); // 발사하는 Gun 엑터를 가지고있는 캐릭터도 제외
-		if (GetWorld()->LineTraceSingleByObjectType(Hit, StartFireLocation, EndFireLocation, FCollisionObjectQueryParams(ECollisionChannel::ECC_Pawn), QueryParams))
+		if (GetWorld()->LineTraceSingleByObjectType(Hit, StartFireLocation, EndFireLocation, FCollisionObjectQueryParams(ECollisionChannel::ECC_Visibility), QueryParams))
 		{
 			DrawDebugLine(GetWorld(), StartFireLocation, EndFireLocation, FColor::Red, false, 10.f, SDPG_World, 1.f);
 			DrawDebugSphere(GetWorld(), Hit.ImpactPoint, 10.f, 12, FColor::Green, false, 10.f, SDPG_World, 1.f);
@@ -139,9 +139,20 @@ void AGun::Fire()
 				DamageEvent.HitInfo = Hit;
 				DamageEvent.ShotDirection = FireDirection;
 
-				BaseCharacter->TakeDamage(DamagePerBullet, DamageEvent, BaseCharacter->GetController(), BaseCharacter);
+				BaseCharacter->TakeDamage(DamagePerBullet, DamageEvent, nullptr, GetOwner());
 
 				//UE_LOG(LogTemp, Log, TEXT("맞은 사람 현재 체력 %d"), BaseCharacter->GetCurrentHealth());
+			} 
+			else
+			{
+
+				FPointDamageEvent DamageEvent;
+				DamageEvent.DamageTypeClass = nullptr;
+				DamageEvent.Damage = DamagePerBullet;
+				DamageEvent.HitInfo = Hit;
+				DamageEvent.ShotDirection = FireDirection;
+
+				Hit.Actor->TakeDamage(DamagePerBullet, DamageEvent, nullptr, GetOwner());
 			}
 		}
 		else

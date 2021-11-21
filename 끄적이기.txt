@@ -1,0 +1,48 @@
+IGarget추상클래스를 각 클래스가 상속하게 한다.
+
+
+class IGadget
+{
+	virtual UseGadget(Human*user) = 0;
+
+}
+class Alarm : Actor, IGadget
+{
+	Throw();
+	virtual UseGadget(Human*user) override{...}
+	사용할때 호출기능 만들 필요 없이 IGadget 클래스를 넘겨준다.
+}
+class Camera : Pawn, IGadget
+{
+	virtual UseGadget(Human*user) override{user->Possess(this);}
+}
+class Drone : Pawn, IGadget,
+{
+Use(Human*user){}
+}
+class Human
+{
+	// 기존 ( 이런 방식으로 하지 않는다)
+	UseGadget(Alarm * gadget){gadget->Use();}
+	UseGadget(Camera* gadget){gadget->Use();}
+	UseGadget(Drone* gadget){gadget->Use();} 
+
+	// 인터페이스 구현 후 ( 코드의 재사용성이 높아졌다)
+.	UseGadget(IGadget* gadget) { gadget->Use();}
+	 
+
+}
+
+int main()
+{
+	Human human 
+
+	Drone drone
+	Camera cam;
+	Alarm alarm;
+	// 기존
+	human -> UseGadget(drone);
+
+	
+	
+}

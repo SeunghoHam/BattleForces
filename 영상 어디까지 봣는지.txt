@@ -1,0 +1,3 @@
+11 06 10 13 57
+00 36 00
+ServerTravel Test / ?TeamInfo = / OutPut / , / Unique ID /  @ / TeamID / 
